@@ -6,6 +6,7 @@ import About from '../About/About'
 import Contact from '../Contact/Contact'
 import Projects from '../Projects/Projects'
 import Skills from '../Skills/Skills'
+import NavBar from '../NavBar/NavBar'
 
 // const Sample = () => {
 //     return(
@@ -19,6 +20,7 @@ const App = () => {
     return (
 
             <div>
+                <NavBar/>
                 <Routes>
                     <Route path='/' element={<Home/>}/>
                     <Route path='/about' element={<About/>}/>
