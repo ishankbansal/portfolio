@@ -9,14 +9,6 @@ import Skills from '../Skills/Skills'
 import NavBar from '../NavBar/NavBar'
 import GoHome from '../GoHome/GoHome'
 
-// const Sample = () => {
-//     return(
-//         <div>
-//             <h1>I am Sample</h1>
-//         </div>
-//     )
-// }
-
 const App = () => {
     return (
 
