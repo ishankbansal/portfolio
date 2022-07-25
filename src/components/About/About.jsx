@@ -9,39 +9,43 @@ const About = () => {
     return (
         <div className='section-container'>
             <Header
-                heading='About Me.'
-                details='Competitive Programmer | Web Developer'
+                heading='About Me'
+                quoteIntro = 'To iterate is human, to recurse is divine!'
             />
 
             <div className='about-main'>
                 <div className='about-main-left'>
 
-                    <h3 className='about-sub-head'>Teacher</h3>
+                    <h2 className='about-sub-head'>Competitive Programmer</h2>
                     <p className='about-details'>
-                        Teaching is my passion, till now, I've taught thousands
-                        of students about Programming and Web Development. Check
+                        Being an enthusiast of problem-solving, I am 4 Star on Codechef and Specialist on Codeforces. 
+                        Recently, secured <b>260 global rank</b> in October Cook-Off 2021.<br/>
+                        Check
                         out{' '}
                         <a
                             className='about-link-element'
                             href='http://theleanprogrammer.com/aam'
+                            target="blank"
                         >
-                            my free react courses!
+                            my coding profiles!
                         </a>
                     </p>
 
-                    <h3 className='about-sub-head'>Blogger</h3>
+                    <h2 className='about-sub-head'>Frontend Developer</h2>
                     <p className='about-details'>
-                        I've been writing blogs from around 3 years now, and
-                        became top-blogger on medium twice. Check out{' '}
+                    I believe working on front-end side of a web application is my cup of tea, 
+                    these skills combined with my problem solving abilities will help me to make an impact in tech! <br/>
+                    Check out{' '}
                         <a
                             className='about-link-element'
-                            href='https://madhavbahl.medium.com/'
+                            href='https://github.com/ishankbansal/'
+                            target="blank"
                         >
-                            my medium blogs today!
+                            my open-source projects!
                         </a>
                     </p>
 
-                    <h3 className='about-sub-head'>Public Speaker</h3>
+                    {/* <h3 className='about-sub-head'>Public Speaker</h3>
                     <p className='about-details'>
                         Being a passionate public speaker, I've given talks at
                         more than 75 events till now! Want me to speak in your
@@ -52,7 +56,7 @@ const About = () => {
                         >
                             Email me the details!
                         </a>
-                    </p>
+                    </p> */}
                 </div>
 
                 <div className='about-main-right'>
