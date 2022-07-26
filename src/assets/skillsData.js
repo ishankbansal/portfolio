@@ -1,4 +1,9 @@
+// import cppImage from './cpp.png'
 export const skillList = [
+    {
+        skillName: 'C++',
+        skillUrl: '../../assets/cpp.png',
+    },
     {
         skillName: 'HTML',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/html.png',
@@ -18,10 +23,6 @@ export const skillList = [
     {
         skillName: 'NodeJS',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
-    },
-    {
-        skillName: 'C++',
-        skillUrl: 'https://brandslogos.com/wp-content/uploads/images/large/c-logo.png',
     },
     
 ];
