@@ -66,7 +66,38 @@
     max-width: 100%;
 }
 
+.about-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    align-self: center;
+}
+
+.about-header-container > h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.9em;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000;
+    margin: 0;
+}
+
+.about-header-container > h2{
+    font-family: Satisfy;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
 @media only screen and (max-width: 640px) {
+    .section-container{
+        padding: 30px;
+    }
+    
     .vector-frame {
         width: 90%;
     }
@@ -87,5 +118,16 @@
     .about-main-left,
     .about-main-right {
         width: 100%;
+    }
+
+    .about-header-container{
+        width: 80%;
+    }
+
+    .about-header-container > h1{
+        margin-top: 40px;
+        display: flex;
+        text-align: left;
+        align-self: flex-start;
     }
 }

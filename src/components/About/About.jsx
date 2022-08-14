@@ -8,10 +8,15 @@ import aboutAnime from './../../assets/about_anime.gif';
 const About = () => {
     return (
         <div className='section-container'>
-            <Header
+            {/* <Header
                 heading='About Me'
                 quoteIntro = 'To iterate is human, to recurse is divine!'
-            />
+            /> */}
+
+            <div className="about-header-container">
+                <h1>About Me</h1>
+                <h2>To iterate is human, to recurse is divine!</h2>
+            </div>
 
             <div className='about-main'>
                 <div className='about-main-left'>

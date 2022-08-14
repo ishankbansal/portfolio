@@ -7,7 +7,6 @@ import Contact from '../Contact/Contact'
 import Projects from '../Projects/Projects'
 import Skills from '../Skills/Skills'
 import NavBar from '../NavBar/NavBar'
-import GoHome from '../GoHome/GoHome'
 
 const App = () => {
     return (
