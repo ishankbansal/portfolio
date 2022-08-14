@@ -29,7 +29,7 @@ const About = () => {
                         out{' '}
                         <a
                             className='about-link-element'
-                            href='http://theleanprogrammer.com/aam'
+                            href='https://linktr.ee/ishank01'
                             target="blank"
                         >
                             my coding profiles!
