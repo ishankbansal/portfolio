@@ -15,14 +15,14 @@ export const projectsData = [
         projectDescription:
             'Build your own buzzy phrases within seconds. Write your own buzzwords on the picture. It is responsive with media queries and flexbox.',
         imageUrl: 'https://user-images.githubusercontent.com/80847853/184289936-4b620b7c-a792-4ad3-a71e-cc2f3d542632.jpg',
-        projectUrl: 'https://buzzword-builder.herokuapp.com/',
+        projectUrl: 'https://buzzwordbuilder.netlify.app/',
     },
     {
         projectName: 'Airbnb Clone',
         projectDescription:
             'Built the UI of Airbnb which offers unique activities. React Hooks and States were used to reuse stateful logic without changing our component hierarchy.',
         imageUrl: 'https://user-images.githubusercontent.com/80847853/184388540-44e4bcbc-a1da-44b3-a818-fb9cc55d212e.jpg',
-        projectUrl: 'https://ishank-airbnb.herokuapp.com/',
+        projectUrl: 'https://ishank-airbnb.netlify.app/',
     },
     {
         projectName: 'Netflix Clone',
