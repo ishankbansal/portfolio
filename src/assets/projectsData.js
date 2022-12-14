@@ -29,7 +29,7 @@ export const projectsData = [
         projectDescription:
             "Created Netflix home page interface using HTML, CSS and Vanilla JavaScript. Used Media Queries and flexbox to make it responsive.",
         imageUrl: 'https://user-images.githubusercontent.com/80847853/184389264-00c766f7-5652-452d-bd08-9bba92accfab.jpg',
-        projectUrl: 'https://netflix-clone.ishank01.repl.co/',
+        projectUrl: 'https://ishank-netflixclone.netlify.app/',
     },
     // {
     //     projectName: 'Portfolio Website',
